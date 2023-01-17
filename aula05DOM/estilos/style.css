@@ -4,38 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: rgb(255, 255, 255);
-}
-
-#cabecalho{
-    background-color: rgb(255, 0, 0);
-    padding: 10px;
-}
-
-h1{
-    color: rgb(0, 0, 0);
-}
-
-#navegador{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-nav > a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin-left: 20px;
-
-    padding: 10px;
-    
     
 }
 
-nav > a:hover{
-     border-bottom: 1px solid black;
-     
-}
+
