@@ -7,4 +7,15 @@
     
 }
 
+#container{
+    font-size: large;
+    margin: auto;
+    margin-top: 10%;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+
 
