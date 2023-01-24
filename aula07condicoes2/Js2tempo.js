@@ -1,4 +1,4 @@
-hora = 3
+hora = 19
 
 if (hora <= 12 && hora >= 6) {
     console.log('Bom Dia!')

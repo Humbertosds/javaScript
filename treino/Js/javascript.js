@@ -44,3 +44,8 @@ function subtracao() {
 
     respo.innerHTML = `A divisão entre os números é de ${sub}`
 }
+
+
+
+
+

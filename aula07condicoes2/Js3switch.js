@@ -28,7 +28,4 @@ switch(diaSemana) {
      default:
         console.log('[ERRO] Data Não encontrada')
 
-
-
-
 }

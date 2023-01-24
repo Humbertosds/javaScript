@@ -1,4 +1,4 @@
-idade = 16
+idade = 80
 if (idade < 16) {
     console.log('Não Vota')
 }else{
