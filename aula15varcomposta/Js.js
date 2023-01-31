@@ -1,13 +1,12 @@
 
 let numeracao = [8 , 3, 7, 9, 5]
+numeracao.sort()
 
 console.log (`${numeracao}`)
 
-for(let pos in numeracao) {
-      console.log(numeracao[pos])
-}
+console.log(`O vetor tem ${numeracao.length} posicoes`)
 
-let pos = numeracao.indexOf(5670)
+let pos = numeracao.indexOf(8)
   
 if (pos == -1) {
     console.log(`Valor não encontrado tente novamente`)
