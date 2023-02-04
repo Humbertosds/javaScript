@@ -1,4 +1,5 @@
-hora = 19
+tempo = new Date()
+hora = tempo.getHours()
 
 if (hora <= 12 && hora >= 6) {
     console.log('Bom Dia!')
