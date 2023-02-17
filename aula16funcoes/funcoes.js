@@ -8,4 +8,4 @@ function parimp(n) {
     }
 }
 
-console.log(parimp(223))
+console.log(parimp(1435640))
