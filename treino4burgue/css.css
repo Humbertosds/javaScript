@@ -9,6 +9,8 @@ body,html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -33,12 +35,50 @@ a:hover {
     letter-spacing: 3px;
 }
 
-.nav-list {
+#nav-list {
     display: flex;
     list-style: none;
 }
 
-.nav-list li {
+#nav-list li {
     margin-left: 32px;
     letter-spacing: 2px;
 }
+
+.mobile-menu {
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div {
+    width: 32px;
+    margin: 8px;
+    background-color: #fff;
+    height: 2px;
+    
+}
+
+@media screen and (max-width: 768px) {
+    #nav-list {
+        position: absolute;
+        background-color: #23232e;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    #nav-list li {
+        margin-left: 0;
+    }
+
+    .mobile-menu {
+        display: block;
+        margin-left: 100px;
+    }
+}
+
