@@ -1,14 +1,14 @@
+num = [2, 6, 3, 5, 8, 9]
+num.sort()
 
+console.log(`${num}`)
 
-function soma() {
-    let in1 = document.getElementById('inum1')
-    let in2 = document.getElementById('inum2')
-    let res = document.getElementById('res')
+console.log(`Existem ${num.length} valores`)
 
-    n1 = Number(in1.value)
-    n2 = Number(in2.value)
+posi = num.indexOf(5)
 
-    resu = n1 * n2
-
-    res.innerHTML = `O resultado dos números colocados é de ${resu}`
+if (posi === -1) {
+    console.log(`Número não identificado`)
+}else {
+    console.log(`O valor esta na posicao ${posi}`)
 }
