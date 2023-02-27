@@ -28,7 +28,7 @@ body {
     color: #666;
 }
 
-#operations {
+#operacoes {
     text-align: right;
 }
 
@@ -43,15 +43,17 @@ body {
     font-size: 3em;
     padding: .2em;
     overflow-wrap: break-word;
+    background-color: #66666646;
+    margin-bottom: 5px;
 }
 
-.buttons-calc {
+.botoes-calc {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3px;
 }
 
-.buttons-calc button {
+.botoes-calc button {
     border: 1px solid transparent;
     border-radius: 0;
     height: 4em;
@@ -60,21 +62,21 @@ body {
     cursor: pointer;
 }
 
-.buttons-calc .number{
+.botoes-calc .number{
     background-color: #F3F3F3;
 }
 
-.buttons-calc button:hover {
+.botoes-calc button:hover {
     background-color: #bababa38;
     border: 1px solid black;
 }
 
-.buttons-calc #igual {
+.botoes-calc #igual {
     grid-column: span 2;
     background-color: #75a5cb;
 }
 
-.buttons-calc #igual:hover {
+.botoes-calc #igual:hover {
     background-color: #3e92d6;
     border: 0;
 }
